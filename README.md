@@ -1,6 +1,10 @@
 # isbot
 
-### Usage
+#### Install
+
+
+
+#### Usage
 
 ```` ruby
 require 'isbot'
@@ -17,6 +21,6 @@ puts user_agent.is_bot? # true
 
 # 3. Use the is_bot function with code_blocks
 is_bot user_agent do |match_bot|
-  puts match_bot
+  puts match_bot # Googlebot/
 end
 ````

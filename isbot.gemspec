@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'meow.i5.br@gmai.com'
   s.files       = Dir['**/*']
   s.homepage    =
-      'https://github.com/gorangajic/isbot'
+      'https://github.com/Hentioe/isbot'
   s.license       = 'MIT'
 end
