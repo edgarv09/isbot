@@ -2,7 +2,7 @@
 
 #### Install
 
-
+https://rubygems.org/gems/isbot
 
 #### Usage
 
