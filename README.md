@@ -1,6 +1,6 @@
 # isbot
 
-#### Install
+#### Gem
 
 https://rubygems.org/gems/isbot
 
