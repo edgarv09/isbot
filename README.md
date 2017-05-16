@@ -1,8 +1,8 @@
 # isbot
 
-#### Install
+#### Gem
 
-
+https://rubygems.org/gems/isbot
 
 #### Usage
 
@@ -24,3 +24,6 @@ is_bot user_agent do |match_bot|
   puts match_bot # Googlebot/
 end
 ````
+#### Attached:
+
+The crawler user-agent data from https://github.com/monperrus/crawler-user-agents, thanks! 😀
