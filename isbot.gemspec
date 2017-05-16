@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.summary     = 'detects bots/crawlers/spiders via the user agent.'
   s.description = 'A simple library for detecting bots/crawlers/spiders through User-Agent strings.'
   s.authors     = ['Hentioe']
-  s.email       = 'meow.i5.br@gmai.com'
+  s.email       = 'meow.i5.br@gmail.com'
   s.files       = Dir['**/*']
   s.homepage    =
       'https://github.com/Hentioe/isbot'
