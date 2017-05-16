@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'isbot'
+
+ARGV.each do |arg|
+  puts "#{arg}\t#{is_bot arg.dup.to_s}"
+end
