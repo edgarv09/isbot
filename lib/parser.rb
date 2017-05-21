@@ -15,7 +15,7 @@ module IsBotParser
     list = JSON.parse(json_str)
     list.each do |item|
       pattern = item['pattern'].to_s
-      PATTERN_LIST.push(pattern)
+      PATTERN_LIST.push(pattern) unless PATTERN_LIST.include? pattern
     end
     PATTERN_LIST
   end

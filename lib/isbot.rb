@@ -18,6 +18,11 @@ module IsBot
     $regex
   end
 
+  def IsBot.add_ua_field(user_agent_field)
+    IsBotParser::PATTERN_LIST.push user_agent_field
+    $init = false
+  end
+
 end
 
 def is_bot(user_agent, &block)
