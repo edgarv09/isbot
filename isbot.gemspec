@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'isbot'
-  s.version     = '0.1.2'
+  s.version     = '0.1.3'
   s.executables << 'isbot'
   s.date        = '2017-05-21'
   s.summary     = 'detects bots/crawlers/spiders via the user agent.'
