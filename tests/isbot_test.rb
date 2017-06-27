@@ -21,8 +21,8 @@ class IsBotTest < Test::Unit::TestCase
   end
 
   def test_add_ua_field
-    user_agent = 'Mozilla/5.0 (compatible; MyBot/1.0; +http://my.me/bot.html'
-    IsBot::add_ua_field 'MyBot'
+    user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google (+https://developers.google.com/+/web/snippet/)'
+    IsBot::add_ua_field 'developers\.google\.com/\+/web/snippet/'
 
     assert_true user_agent.is_bot?
   end

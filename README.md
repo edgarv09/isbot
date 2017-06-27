@@ -25,13 +25,16 @@ is_bot user_agent do |match_bot|
 end
 ````
 
-Add a Spider User-Agent field:
+Add a spider User-Agent field:
 
 ```` ruby
-user_agent = 'Mozilla/5.0 (compatible; MyBot/1.0; +http://my.me/bot.html'
-IsBot::add_ua_field 'MyBot'
 
-user_agent.is_bot? # true
+user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google (+https://developers.google.com/+/web/snippet/)'
+
+# Add Goole Keep User-Agent match field:
+IsBot::add_ua_field 'developers\.google\.com/\+/web/snippet/'
+
+assert_true user_agent.is_bot? # pass
 ````
 #### Attached:
 
